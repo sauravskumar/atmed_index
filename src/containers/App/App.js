@@ -56,28 +56,7 @@ export default class App extends Component {
     return (
       <div>
         <Helmet {...config.app.head}/>
-        <div className="row">
-          <div className="col-xs-12 col-sm-8 col-md-8 col-lg-6 col-sm-push-2 col-md-push-2 col-lg-push-3" style={{marginTop: '100px'}}>
-            <img src="/index-images/google.png" style={{margin: '0 auto', display: 'block', width: '100%', maxWidth: '500px'}}/>
-            <div style={{margin: '0 auto', textAlign: 'center'}}>
-              <input className={styles.input} type="text"/>
-              <button className="btn btn-primary" style={{borderRadius: '1px'}}>Search</button>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xs-6">
-              <a href="/coupons" className="href">
-                <img src="" alt=""/>
-              </a>
-            </div>
-            <div className="col-xs-6">
-              <a href="/trains" className="href">
-                <img src="" alt=""/>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid">
+        <div className="container">
           <div className={styles.appContent}>
             {this.props.children}
           </div>

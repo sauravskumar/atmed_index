@@ -1,2 +1,22 @@
 @import "../../theme/variables.scss";
 
+ul.heading {
+  list-style: none;
+  font-size: 14px;
+  float: right;
+  margin-top: 30px;
+  li {
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  li:last-child {
+    margin-right: 100px;
+  }
+}
+
+.input {
+  height: 38px;
+  width: 280px;
+  font-size: 16px;
+}
