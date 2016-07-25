@@ -12,33 +12,25 @@ export default class Home extends Component {
       <div>
         <Helmet title="Home"/>
         <div className="row">
-          <ul className={styles.heading}>
-            <li>
-              <a href={"/coupons"}>Coupons</a>
-            </li>
-            <li><a href={"/trains"}>Trains</a></li>
-          </ul>
+          <div className="col-xs-12">
+            <ul className={styles.heading}>
+              <li>
+                <a href={"/coupons"}>Coupons</a>
+              </li>
+              <li><a href={"/trains"}>Trains</a></li>
+            </ul>
+          </div>
         </div>
         <div className="row">
           <div className="col-xs-12 col-sm-8 col-md-8 col-lg-6 col-sm-push-2 col-md-push-2 col-lg-push-3"
-               style={{marginTop: '100px'}}>
-            <img src="/index-images/google.png"
-                 style={{margin: '0 auto', display: 'block', width: '100%', maxWidth: '500px'}}/>
-            <div style={{margin: '0 auto', textAlign: 'center'}}>
-              <input className={styles.input} type="text"/>
-              <button className="btn btn-primary" style={{borderRadius: '1px'}}>Search</button>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xs-6">
-              <a href="/coupons" className="href">
-                <img src="" alt=""/>
-              </a>
-            </div>
-            <div className="col-xs-6">
-              <a href="/trains" className="href">
-                <img src="" alt=""/>
-              </a>
+               style={{marginTop: '100px', textAlign: 'center'}}>
+            <img src="/index-images/atmed.png"
+                 style={{margin: '0 auto', display: 'block', width: '100%', maxWidth: '450px'}}/>
+            <div className="form-inline" style={{marginTop: '70px'}}>
+              <div className="form-group">
+                <input type="text" className={'form-control ' + styles.input} id="inputPassword2"/>
+              </div>
+              <button type="submit" className="btn btn-primary" style={{borderRadius: '0px 5px 5px 0px'}}>Search</button>
             </div>
           </div>
         </div>

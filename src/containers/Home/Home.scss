@@ -14,9 +14,16 @@ ul.heading {
     margin-right: 100px;
   }
 }
-
 .input {
-  height: 38px;
-  width: 280px;
-  font-size: 16px;
+  height: 37px !important;
+  width: 200px;
+  font-size: 18px;
+  border: 1px solid #EFEFEF;
+  border-radius: 5px 0 0 5px;
+}
+
+@media (min-width: 450px) {
+  .input {
+    width: 350px;
+  }
 }
