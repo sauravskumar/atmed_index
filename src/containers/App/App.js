@@ -56,10 +56,11 @@ export default class App extends Component {
     return (
       <div>
         <Helmet {...config.app.head}/>
-        <div className="container">
+        <div className="container-fluid appContent">
           <div className={styles.appContent}>
             {this.props.children}
           </div>
+          <div className="push"></div>
         </div>
         <Footer/>
       </div>

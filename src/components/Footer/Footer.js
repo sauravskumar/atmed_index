@@ -9,10 +9,6 @@ export default class Footer extends Component {
     contents: PropTypes.array
   };
 
-  componentDidMount() {
-    console.log(this.refs.footer);
-  }
-
   render() {
     const contents = [
       {
@@ -25,7 +21,7 @@ export default class Footer extends Component {
       },
     ];
     return (
-      <footer className={style.footer} ref="footer">
+      <footer className={'footer'} ref="footer">
         <ul>
           {contents.map(obj => {
             return (

@@ -21,10 +21,26 @@ $brand-primary: darken(#428bca, 6.5%);
 //$text-color: #333;
 
 //$font-size-base: 14px;
-$font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
 
 a, a:visited, a:hover {
   color: black !important;
   cursor: pointer;
   cursor: hand;
+}
+
+//
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+#content {
+  min-height:100%;
+  position:relative;
+}
+
+.appContent {
+  padding-bottom: 50px; /* Height of the footer element */
 }

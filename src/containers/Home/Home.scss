@@ -1,5 +1,10 @@
 @import "../../theme/variables.scss";
 
+.imageDiv {
+  margin-top: 80px;
+  text-align: center;
+}
+
 ul.heading {
   list-style: none;
   font-size: 14px;
@@ -9,11 +14,11 @@ ul.heading {
     display: inline-block;
     margin-left: 30px;
   }
-
   li:last-child {
     margin-right: 100px;
   }
 }
+
 .input {
   height: 37px !important;
   width: 200px;
@@ -25,5 +30,13 @@ ul.heading {
 @media (min-width: 450px) {
   .input {
     width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  ul.heading {
+    li:last-child {
+      margin-right: 20px;
+    }
   }
 }
