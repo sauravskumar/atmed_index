@@ -26,7 +26,7 @@ export default class Footer extends Component {
           {contents.map(obj => {
             return (
               <li className="text-capitalize" key={Date.now() + Math.random()}>
-                <a href={obj.url} className={style.links} rel="nofollow">{obj._id}</a>
+                <a href={obj.url} className={style.links} title={obj._id} rel="nofollow">{obj._id}</a>
               </li>
             );
           })}
