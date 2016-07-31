@@ -13,5 +13,6 @@ services:
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
+      - ./static/files:/usr/src/app/static/files
     environment:
         NODE_ENV: development

@@ -6,3 +6,5 @@ services:
     image: sauravskumar/atmed_index
     container_name: atmed_index
     command: bash -c "rm -rf /root/.pm2 && npm run start"
+    volumes:
+      - ./static/files:/usr/src/app/static/files
