@@ -1,0 +1,35 @@
+footer {
+  background: #F2F2F2;
+  height: 50px;
+  border-top: 1px solid #E4E4E4;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  line-height: 50px;
+  //margin-top: 20px;
+  margin-left: 50px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+footer .links, footer .links:hover {
+  color: #6A7796 !important;
+}
+
+@media (max-width: 768px) {
+  footer ul li {
+    margin-left: 30px;
+  }
+}
