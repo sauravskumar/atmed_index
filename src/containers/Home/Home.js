@@ -23,7 +23,7 @@ export default class Home extends Component {
         </div>
         <div className="row">
           <div className={'col-xs-12 col-sm-8 col-md-8 col-lg-6 col-sm-push-2 col-md-push-2 col-lg-push-3 ' + style.imageDiv}>
-            <img src="http://res.cloudinary.com/atmed/image/upload/atmed_logo" alt="Atmed Logo"
+            <img src="https://res.cloudinary.com/atmed/image/upload/atmed_logo" alt="Atmed Logo"
                  style={{margin: '0 auto', display: 'block', width: '80%', maxWidth: '450px'}}/>
             {/* <div className="form-inline" style={{marginTop: '50px'}}>
               <div className="form-group">

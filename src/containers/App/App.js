@@ -13,7 +13,7 @@ import {Footer} from 'components';
 import config from '../../config';
 // import {asyncConnect} from 'redux-connect';
 import styles from './App.scss';
-
+import ga from 'react-ga';
 // @asyncConnect([{
 // promise: ({store: {dispatch, getState}}) => {
 //   const promises = [];
@@ -51,6 +51,17 @@ export default class App extends Component {
   //     this.props.pushState('/');
   //   }
   // }
+
+  componentDidMount = () => {
+    ga.initialize('UA-81811986-1', { debug: false });
+    ga.pageview(this.props.location.pathname);
+  };
+
+  componentWillUpdate = (nextProps) => {
+    if (nextProps.location.pathname !== this.props.location.pathname) {
+      ga.pageview(nextProps.location.pathname);
+    }
+  };
 
   render() {
     return (

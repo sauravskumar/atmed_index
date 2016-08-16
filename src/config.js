@@ -20,7 +20,7 @@ module.exports = Object.assign({
     head: {
       titleTemplate: '%s',
       meta: [
-        {name: 'description', content: 'Technology company.'},
+        {name: 'description', content: 'Atmed is a technology company which aims to automate everything possible.'},
         {charset: 'utf-8'},
         {property: 'og:site_name', content: 'Atmed'},
         {property: 'og:image', content: 'https://res.cloudinary.com/atmed/image/upload/c_scale,h_200,q_100/v1469877963/atmed_umufoy.png'},
