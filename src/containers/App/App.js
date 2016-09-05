@@ -36,6 +36,9 @@ export default class App extends Component {
   static propTypes = {
     children: PropTypes.object.isRequired,
     user: PropTypes.object,
+    location: PropTypes.shape({
+      pathname: PropTypes.string
+    }),
   };
 
   static contextTypes = {

@@ -15,9 +15,9 @@ export default class Home extends Component {
           <div className="col-xs-12">
             <ul className={style.heading}>
               <li>
-                <a href={"/coupons"} title="Atmed Coupons">Coupons</a>
+                <a href={"/in/coupons"} title="Atmed Coupons">Coupons</a>
               </li>
-              <li><a href={"/trains"} title="Atmed Trains">Trains</a></li>
+              <li><a href={"/in/trains"} title="Atmed Trains">Trains</a></li>
             </ul>
           </div>
         </div>

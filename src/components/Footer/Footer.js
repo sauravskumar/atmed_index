@@ -13,11 +13,15 @@ export default class Footer extends Component {
     const contents = [
       {
         _id: 'About',
-        url: 'https://support.amted.co/about'
+        url: '/about'
       },
       {
-        _id: 'Terms',
-        url: 'https://support.amted.co/terms'
+        _id: 'Contact',
+        url: '/contact'
+      },
+      {
+        _id: 'Privacy Policy',
+        url: '/privacy-policy'
       },
     ];
     return (

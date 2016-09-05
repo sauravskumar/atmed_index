@@ -11,6 +11,8 @@ import {
   // LoginSuccess,
   // Survey,
   NotFound,
+  Contact,
+  PrivacyPolicy
 } from 'containers';
 
 export default () => {
@@ -48,6 +50,8 @@ export default () => {
 
       { /* Routes */ }
       <Route path="about" component={About}/>
+      <Route path="contact" component={Contact}/>
+      <Route path="privacy-policy" component={PrivacyPolicy}/>
       {/* <Route path="login" component={Login}/>
       <Route path="survey" component={Survey}/>
       <Route path="widgets" component={Widgets}/> */}

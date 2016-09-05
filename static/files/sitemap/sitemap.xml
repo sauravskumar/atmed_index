@@ -6,13 +6,13 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>https://www.atmed.co/coupons/</loc>
+        <loc>https://www.atmed.co/in/coupons/</loc>
         <lastmod>2016-07-31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.atmed.co/trains/</loc>
+        <loc>https://www.atmed.co/in/trains/</loc>
         <lastmod>2016-07-31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
